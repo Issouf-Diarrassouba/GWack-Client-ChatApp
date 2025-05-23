@@ -1,22 +1,60 @@
-# Project 3 : GWack Slack Simulator
-
-
-## Help Received
-
-Please document any help you received in completing this lab. Note that the what you submit should be your own work. Refer to the syllabus for more details. 
-
-[Software website videos and notes from previous lectures .]
-
-## Describe the OOP design of your GWack Slack Simulator
-
-Please provide a short description of your programming progress
-
-[The programming process for me was time consuming despite me being facinated with the outcome. So with the Simlator despite coding it i enjoyed being able to see that it worked when I was able to connect and see tjat I was able to vivivdly see my peers typing an dengaging with e. But also time consuming as I was on a time crunch to get the extra points while fufiling the overall design of the project]
-
-## What additional features did you attempt and how can we test them
-
-[The features portion is the one that took me the most time as I wanted to be differnet and unique in the fact that I wanted the colors to be different and vibrant when you logged in. When you first enter you will see that the color is a bage white or beige white dependeing on how you spell it. With various options and labels being placed above. for one the staus of where you are at, at the given tim. with the indication of what you want your name to be and such more. What I enjoyed the most with the extra ffeautures was the implemetnation of my light and darkmode 
-the dark mode will not be activated until you switch it and send a message. As of everything else (like the fonts and such). The darkmode for me provides a vscode like enviorment which is ideal being a s major but also a sort of glowy feeling that I enjoyed. Aside from that the other features are great and I hope you enjoy and try out the feautures. If anything I would mostly suggest trying out the darkmode wuith bolded letters ]
-
-
 # GWack-Client-ChatApp
+
+A Java Swing-based GUI chat client built to connect with the GWack messaging server, simulating a Slack-like communication tool. This project combines object-oriented programming, socket networking, and interactive UI design to offer a personalized messaging experience.
+
+## Features
+
+- Connect/disconnect functionality to GWack server
+- Real-time messaging using socket communication
+- User status selection: Available, Busy, Gone
+- Color-coded message customization
+- Font styling: Plain, Italic, Bold
+- Light and Dark UI themes
+- Interactive user list and message display
+- Compose and send messages via button or `Enter` key
+- Error handling for invalid ports, names, and connections
+
+## Technologies Used
+
+- Java
+- Java Swing (GUI)
+- Sockets (`java.net.Socket`)
+- Input/Output Streams
+
+## How It Works
+
+1. User enters:
+   - Display name
+   - IP address (e.g., `ssh-cs2113.adamaviv.com`)
+   - Port (8886, 8887, or 8888)
+2. Upon connection, the GUI fetches members and enables messaging.
+3. Users can choose visual customizations (theme, font, color) and status.
+4. Messages are sent to the server and reflected in the Messages panel with selected styles.
+
+## UI Highlights
+
+- **Light Mode**: Soft beige and gray tones for a clean look
+- **Dark Mode**: Vibrant accents on a dark background
+- **Custom Font and Color Options**: Personalize messages with style
+
+## Developer Notes
+
+This project was created with an emphasis on both **functionality and design**. I aimed to make the interface fun and engaging while also fulfilling the technical requirements. There’s room for feature expansion such as emoji support, sound notifications, and improved layout responsiveness.
+
+## How to Run
+
+1. Clone the repository.
+2. Compile using `javac GWackClientGUI.java`.
+3. Run the program with `java GWackClientGUI`.
+4. Ensure the server (`ssh-cs2113.adamaviv.com`) is reachable and running.
+
+## Future Ideas
+
+- Add support for emoji reactions
+- Implement a zombie-themed chat filter for fun
+- Save chat history locally
+- Group channel creation and management
+
+---
+
+### Signed with creativity and care by Issouf Diarrassouba
